@@ -1,1 +1,67 @@
-# privacy-policy
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy - Nome Estensione</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.6;margin:0;padding:2rem;background:#f7f8fb;color:#111}
+    .container{max-width:900px;margin:0 auto;background:white;padding:2rem;border-radius:8px;box-shadow:0 6px 18px rgba(12,20,30,0.06)}
+    h1{font-size:1.6rem;margin-bottom:0.25rem}
+    small{color:#666}
+    h2{margin-top:1.25rem;border-bottom:1px solid #eee;padding-bottom:.25rem;font-size:1.05rem}
+    p{margin:.6rem 0}
+    ul{margin:.4rem 0 1rem 1.2rem}
+    footer{margin-top:1.6rem;color:#666;font-size:.9rem}
+    a{color:inherit;text-decoration:underline}
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <header>
+      <h1>Privacy Policy</h1>
+      <small>Ultimo aggiornamento: <span id="lastUpdated">Febbraio 14, 2024</span></small>
+    </header>
+
+    <section>
+      <p>Questa Privacy Policy spiega come la <strong>"Nome Estensione"</strong> (di seguito, "Estensione") raccoglie, usa e protegge le informazioni quando la utilizzi. Siamo impegnati a proteggere la tua privacy: leggila con attenzione.</p>
+    </section>
+
+    <h2>1. Ambito di applicazione</h2>
+    <p>La presente informativa si applica a tutti gli utenti dell'Estensione. Installando e utilizzando l'Estensione accetti i termini descritti in questa policy.</p>
+
+    <h2>2. Raccolta e memorizzazione dei dati</h2>
+    <p>L'Estensione <strong>non</strong> raccoglie, archivia né tratta dati personali identificabili (nome, email, numero di telefono, dati di pagamento). Per fornire le sue funzionalità, l'Estensione può salvare impostazioni e preferenze localmente nel tuo browser (ad esempio tramite <code>chrome.storage</code> o storage locale). Questi dati rimangono sul tuo dispositivo e non vengono inviati a server esterni.</p>
+
+    <h2>3. Condivisione dei dati</h2>
+    <p>Non condividiamo dati con terze parti. L'Estensione opera localmente nel tuo browser e non trasmette informazioni a server esterni, salvo quanto diversamente specificato in questa policy.</p>
+
+    <h2>4. Diritti dell'utente</h2>
+    <p>Puoi modificare o resettare le tue preferenze in qualsiasi momento dalle impostazioni dell'Estensione. Disinstallando l'Estensione o cancellando lo storage del browser verranno rimossi tutti i dati locali salvati dall'Estensione.</p>
+
+    <h2>5. Sicurezza</h2>
+    <p>Adottiamo pratiche di sicurezza per proteggere i dati memorizzati localmente. Ti consigliamo di tenere aggiornato il browser e l'Estensione per mantenere alti livelli di sicurezza.</p>
+
+    <h2>6. Disclosure su link affiliati</h2>
+    <p>L'Estensione può convertire automaticamente alcuni link in link affiliati. Tale funzionalità può generare commissioni per il proprietario dell'Estensione quando si effettuano acquisti o iscrizioni tramite quei link. Usando l'Estensione, accetti questa funzionalità.</p>
+
+    <h2>7. Nessuna affiliazione</h2>
+    <p>L'Estensione non è affiliata, approvata o sponsorizzata da eventuali siti o servizi citati o relativi alla sua funzionalità, a meno che non sia specificato esplicitamente.</p>
+
+    <h2>8. Modifiche a questa Privacy Policy</h2>
+    <p>Ci riserviamo il diritto di aggiornare questa Privacy Policy. Eventuali modifiche saranno pubblicate su questa pagina e la data di "Ultimo aggiornamento" verrà rettificata.</p>
+
+    <h2>9. Contatti</h2>
+    <p>Per domande relative a questa Privacy Policy puoi contattarci all'indirizzo: <a href="mailto:tuo.indirizzo@email.com">tuo.indirizzo@email.com</a>.</p>
+
+    <footer>
+      <p>Questa policy è generica e va adattata alle specifiche funzionalità e trattamento dati della tua Estensione. Se la tua estensione raccoglie o trasmette dati a server remoti, o utilizza servizi di analytics/telemetria, dovrai aggiungere sezioni specifiche descrivendo quali dati vengono raccolti, finalità, base giuridica (se applicabile), periodo di conservazione e destinatari.</p>
+    </footer>
+  </main>
+
+  <script>
+    // opzionale: imposta automaticamente la data "Ultimo aggiornamento"
+    document.getElementById('lastUpdated').textContent = 'February 14, 2024';
+  </script>
+</body>
+</html>
